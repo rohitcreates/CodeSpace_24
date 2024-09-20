@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 20px;
+	width: 100vw;
+	height: 100vh;
+	background: url(img\ 1.jpg)no-repeat center center/cover;
+}
+
+.image {
+	position: relative;
+	right: 40px;
+	width: 220px;
+	height: 300px;
+	border-radius: 6px;
+	box-shadow: 0.5px 1px 10px 1px black;
+}
+
+.first {
+	background: url(img\ 2.jpg)no-repeat center center/cover;
+}
+
+.second {
+	background: url(img\ 3.jpg)no-repeat center center/cover;
+}
+
+.third {
+	background: url(img\ 4.jpg)no-repeat center center/cover;
+}
+
+.container .buttons {
+	display: flex;
+	gap: 20px;
+	position: absolute;
+	top: 600px;
+	left: 250px;
+}
+
+.buttons button {
+	background-color: white;
+	padding: 11px 12px;
+	border: none;
+	border-radius: 100px;
+	cursor: pointer;
+}
+
+.buttons button:active {
+	transform: scale(0.90);
+}
